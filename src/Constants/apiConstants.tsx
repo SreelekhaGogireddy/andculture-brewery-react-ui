@@ -1,3 +1,3 @@
 export const BrewaryAPiEndPoints={
-    BrewaryList:`https://andculture.herokuapp.com/api/Breweries/GetBreweries`
+    BrewaryList:`https://andculture-brewery-api-project.herokuapp.com/api/Breweries/GetBreweries`
 }
