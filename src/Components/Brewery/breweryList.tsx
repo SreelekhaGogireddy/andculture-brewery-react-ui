@@ -16,12 +16,12 @@ export const Brewery = ({}) => {
 
   const getData = async () => {
     axios
-      .get(`${BrewaryAPiEndPoints.BrewaryList}`)
+      .get(`${BrewaryAPiEndPoints.BrewaryList}`, { params: { city: "Bend"}})
       .then((response) => {
         setBreweryList(response.data.data);
       })
       .catch((error) => {
-        console.log("error", error);
+        console.log("Failed to get List of Breweries", error);
       });
   };
 
