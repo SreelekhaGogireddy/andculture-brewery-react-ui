@@ -13,7 +13,8 @@ $blue-color:#4267b2;
     .brewery-list{
         display: flex;
         flex-direction: column;
-        justify-content: center;       
+        justify-content: center; 
+        align-items: center;      
         margin: 0;
         padding: 20px;
     }
